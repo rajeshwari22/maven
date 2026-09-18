@@ -1,50 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Simple Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova - Modern Website</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple static web page.</p>
+    <nav>
+        <div class="logo">NOVA</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <a href="#contact" class="nav-button">Get Started</a>
+    </nav>
 </header>
 
-<hr>
-
-<nav>
-    <a href="#">Home</a> |
-    <a href="#">About</a> |
-    <a href="#">Contact</a>
-</nav>
-
-<hr>
-
 <main>
-    <h2>About This Page</h2>
-    <p>
-        This webpage is created using only HTML.
-        It does not use CSS or JavaScript.
-    </p>
 
-    <h2>My Hobbies</h2>
-    <ul>
-        <li>Reading</li>
-        <li>Gaming</li>
-        <li>Traveling</li>
-        <li>Music</li>
-    </ul>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
 
-    <h2>Contact Me</h2>
-    <p>Email: example@email.com</p>
+        <div class="hero-content">
+            <p class="tagline">✦ THE FUTURE STARTS HERE</p>
+
+            <h1>
+                Build something
+                <span>extraordinary.</span>
+            </h1>
+
+            <p class="hero-text">
+                A clean, modern and powerful space for your next big idea.
+                Turn your vision into something people remember.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#features" class="primary-button">
+                    Explore Now →
+                </a>
+
+                <a href="#about" class="secondary-button">
+                    Learn More
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+
+        <p class="section-label">WHY NOVA</p>
+
+        <h2>Everything you need.</h2>
+
+        <div class="feature-grid">
+
+            <article class="card">
+                <div class="icon">⚡</div>
+                <h3>Fast</h3>
+                <p>
+                    Lightweight and optimized for a smooth experience.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="icon">◆</div>
+                <h3>Beautiful</h3>
+                <p>
+                    Minimal design with a premium and modern aesthetic.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="icon">∞</div>
+                <h3>Flexible</h3>
+                <p>
+                    Easy to customize and adapt to your own ideas.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <div>
+            <p class="section-label">ABOUT US</p>
+
+            <h2>Ideas deserve a beautiful place to live.</h2>
+
+            <p>
+                Nova is designed for creators, businesses and people
+                who want their presence on the web to feel different.
+            </p>
+
+            <a href="#contact" class="primary-button">
+                Let's Talk →
+            </a>
+        </div>
+
+        <div class="about-box">
+            <div class="circle"></div>
+            <h3>Think bigger.</h3>
+            <p>Make something unforgettable.</p>
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>Ready to create something?</h2>
+
+        <p>
+            Let's turn your idea into reality.
+        </p>
+
+        <a href="mailto:hello@example.com" class="primary-button">
+            Contact Us →
+        </a>
+
+    </section>
+
 </main>
 
-<hr>
-
 <footer>
-    <p>&copy; 2026 My Simple Website</p>
+    <p>© 2026 NOVA. All rights reserved.</p>
 </footer>
 
 </body>
 </html>
+
